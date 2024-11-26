@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family:Poppins; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container{
+     z-index: 55;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-left: 3em;
+    padding-inline: 3em;
+    gap: 1em;
+    position: fixed;
+    margin-top: 4em;
+    width: 100%;
+    z-index: 444;
+/*    box-shadow: 0 .5px 0 rgba(0, 0, 0, 0.5); */
+    background-color: white;
+}
+
+.mobile-login{
+     color: #e11d48;
+       text-decoration: none;
+}
+.logo{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Poppins;
+     color: #e11d48;
+
+}
+
+
+.logo a{
+    text-decoration:none;
+    list-style-type: none;
+    
+}
+
+.nav-items ul{
+    font-weight: 500;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     gap: 1em;
+     font-size: 15px;
+     color: #1f2937;
+     display: none;
+}
+
+.nav-items a{
+	 text-decoration: none;
+	 list-style-type: none;
+	  color: #1f2937;
+}
+
+.nav-items li{
+    cursor: pointer;
+}
+
+.nav-items li:hover{
+	color: black;
+	font-weight: 500;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 4.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+  
+
+}
+
+.hero-title{
+	font-size: 60px;
+	font-weight: 600;
+	font-family: "Great Vibes", cursive;
+    text-align: center;
+}
+
+.hero-sub{
+	margin-top: -1em;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 1em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.hero img{
+	width: 100%;
+	display: none;
+}
+.slogan{
+	margin-top: -2em;
+}
+.slogan button{
+	padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 18px;
+    margin-bottom: 2em;
+    font-family: Poppins;
+    background-color: #e11d48;
+}
+
+.mobile-arrow{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-arrow img{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.art-title{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 600;
+    color: #e11d48;
+    font-family: "Great Vibes", cursive;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-image: url(./images/heart.jpg);
+     padding-top: 2em;
+}
+
+.articles{
+    display:grid;
+    gap: 2em;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    margin-bottom: 3em;
+
+}
+
+.article1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 300px;
+    border: .2px solid gray;
+    padding: 15px;
+       text-decoration: none;
+       background-color: white;
+
+}
+
+.article1 img{
+    width: 200px;
+}
+
+.article1:hover{
+    margin-top: -2em;
+    transition: .5s;
+       border: 1px solid #e11d48;
+}
+
+
+#ifr{
+    width: 250px;
+    height: 200px;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+   gap: -1em;
+}
+
+.auth{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.auth img{
+    width:20px;
+    border-radius: 100%;
+}
+
+.ptitle{
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -1px;
+    color:black;
+}
+
+ a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.psub{
+	color: gray;
+	font-weight: 500;
+	font-size: 10px;
+	margin-top: -10px;
+}
+.auth{
+	font-size: 12px;
+}
+
+.date{
+	font-size: 10px;
+	margin-top: -3px;
+}
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.con-title{
+	font-size: 60px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.emails{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    gap: 1em;
+}
+
+.con-container{
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.con-container img{
+  display:none;
+}
+
+.emails p{
+	 font-weight: 600;
+	 font-size: 20px;
+}
+
+.emails input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-family: Poppins;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.emails textarea{
+      font-family: Poppins;
+      width: 303px;
+      height:120px;
+      border: 1px solid black;
+      border-radius: 5px;
+}
+
+.emails button{
+      width:300px;
+      padding:10px;
+      font-family: Montserrat;
+      font-size: 15px;
+      color: white;
+      background-color: black;
+      border:none;
+
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.blog{
+	margin: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.blog img{
+	 width: 370px;
+	
+}
+
+.blog-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.blog-auth{
+    display:flex;
+    gap: 1em;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: #1f2937;
+}
+
+.blog-auth img{
+	width: 40px;
+	border-radius: 100%;
+}
+
+.ctu{
+    color: #1f2937;
+    font-size: 12px;
+}
+
+/*================================================PC VERSION ===========================================*/
+
+@media only screen and (min-width: 1024px) {
+
+   
+  .navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    gap: 23em;
+    position: fixed;
+    margin-top: 5em;
+    padding-top: 1em;
+    width: 100%;
+    height: 80px;
+    z-index: 444;
+/*    box-shadow: 0 .4px 0 rgba(0, 0, 0, 0.5); */
+    background-color: white;
+
+}
+.mobile-login{
+    display: none;
+}
+.nav-items ul{
+    font-weight: 500;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     gap: 3em;
+     font-size: 18px;
+     color: #1f2937;
+     text-decoration: none;
+}
+
+.nav-items a{
+	 text-decoration: none;
+	 list-style-type: none;
+	  color: #e11d48;
+}
+.logo{
+    font-weight: 800;
+    font-size: 35px;
+    font-family: Poppins;
+    color: #e11d48;
+}
+
+      .hero{
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 .5px 0 rgba(0, 0, 0, 0.5); /* Creates a thin border effect */
+    
+
+   width: 100%;
+/*   background-image: url(./images/he.jpg);*/
+  z-index: 999;
+  
+}
+
+.hero-title{
+	font-size: 90px;
+	font-weight: 600;
+    text-align: center;
+    font-family:  "Great Vibes", cursive;
+}
+
+
+.hero-sub{
+	margin-top: -4em;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 1em;
+   
+}
+.mobile-arrow{
+    display: none;
+}
+.hero img{
+	width: 300px;
+    display: block;
+    margin-top: -3em;
+}
+.slogan{
+	margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan img{
+    width: 90px;
+    margin-bottom: 4em;
+}
+
+.slogan button{
+	padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color: white;
+    background-color: #e11d48;
+    border: none;
+    border-radius: 18px;
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-family: Montserrat;
+}
+
+.art-title{
+	font-size: 80px;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	font-weight: 600;
+    color: #e11d48;
+    font-family:  "Great Vibes", cursive;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-image: url(./images/heart.jpg);
+     padding-top: 2em;
+}
+
+.articles{
+    display:grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    margin-bottom: 3em;
+
+}
+
+.article1{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+    gap: 2em;
+    width: 300px;
+    border: .2px solid gray;
+    padding: 15px;
+       text-decoration: none;
+       background-color: white;
+
+}
+
+.article1 img{
+	width: 200px;
+}
+
+.article1:hover{
+    margin-top: -2em;
+    transition: .5s;
+       border: 1px solid #e11d48;
+}
+
+
+#ifr{
+    width: 250px;
+    height: 200px;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+   gap: -1em;
+}
+
+.auth{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.auth img{
+    width:20px;
+    border-radius: 100%;
+}
+
+.ptitle{
+	font-weight: 600;
+	font-size: 15px;
+    width: 300px;
+	margin-top: -1px;
+    color: #e11d48;
+}
+.psub{
+	color: black;
+	font-weight: 500;
+	font-size: 13px;
+	margin-top: -10px;
+    width: 300px;
+}
+.auth{
+	font-size: 12px;
+}
+
+.date{
+	font-size: 12px;
+	margin-top: -3px;
+}
+
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.con-title{
+	font-size: 60px;
+	text-align: center;
+	font-weight: 600;
+    color: #e11d48;
+}
+
+.emails{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    gap: 1em;
+}
+
+.con-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-top: -2em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    gap: 5em;
+}
+
+.con-container img{
+  width: 400px;
+  display:block;
+}
+
+.emails p{
+	 font-weight: 600;
+	 font-size: 20px;
+}
+
+.emails input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-family: Poppins;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.emails textarea{
+      font-family: Poppins;
+      width: 303px;
+      height:120px;
+      border: 1px solid black;
+      border-radius: 5px;
+}
+
+.emails button{
+      width:300px;
+      padding:10px;
+      font-family: Montserrat;
+      font-size: 15px;
+      color: white;
+      background-color: #e11d48;
+      border:none;
+
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5em;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+
+.blog{
+	margin: 8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.blog img{
+	 width: 600px;
+	
+}
+
+.blog-intro{
+      font-weight: 500;
+}
+.blog-body{
+    width: 800px;
+}
+.blog-title{
+    font-size: 40px;
+    font-weight: 500;
+     width: 560px;
+}
+#ii{
+    width: 900px;
+    height: 300px;
+}
+.blog-auth{
+    display:flex;
+    gap: 1em;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: #1f2937;
+}
+
+.blog-auth img{
+	width: 40px;
+	border-radius: 100%;
+}
+
+.ctu{
+    color: #1f2937;
+    font-size: 12px;
+}
+
+
+  }
